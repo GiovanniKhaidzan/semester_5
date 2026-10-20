@@ -1,0 +1,12 @@
+{
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "DuckDB",
+      "database": "D:\\KULIYAHHH\\semester_5\\20262027 Gasal - Pemrograman Basis Data - Galih Hermawan, S.Kom, M.T\\db",
+      "name": "DuckDB_Latihan",
+      "group": "Kuliah"
+    }
+  ]
+}
