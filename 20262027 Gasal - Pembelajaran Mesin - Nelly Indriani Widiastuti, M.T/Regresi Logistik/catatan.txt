@@ -1,0 +1,16 @@
+Rumus
+
+Loss
+L = −ln(1 − σ) / L = −ln(σ) 
+Contoh
+−ln(1 − 0.65784) = −ln(0.34216) = 1.07247 
+−ln(0.64644) = 0.43627
+
+(σ − y)  (selisih antar tebakaan)
+Contoh
+0.68776 = -0.31224
+
+w1dan w2 (kontribusi tiap baris untuk menghitung gradien) 
+w1 = (σ−y) × f1 /  w2 = (σ − y) × f2
+Contoh
+−0.31224 × 0.7663 = −0.23927 
