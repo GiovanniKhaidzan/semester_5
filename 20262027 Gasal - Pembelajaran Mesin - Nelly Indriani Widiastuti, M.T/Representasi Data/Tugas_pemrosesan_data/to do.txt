@@ -1,0 +1,40 @@
+Kerangka laporan
+
+1. Link data
+
+URL sumber dataset (Kaggle atau lainnya). Link ini kamu isi sendiri, karena aku tidak tahu asal file-nya.
+
+2. Cerita tentang data
+
+Data apa ini: data performa ujian siswa.
+Jumlah baris (100.000) dan kolom (44), rentang usia 14-20.
+Tujuan klasifikasi: memprediksi target pilihanmu dari kebiasaan belajar, kondisi keluarga, dan faktor lainnya.
+Kondisi awal data: ada missing value, tidak ada duplikat, distribusi kelas target.
+ 
+Tabel nominal / ordinal / interval / rasio per kolom, disertai alasan singkat untuk kolom yang bisa diperdebatkan.
+
+5. Pemrosesan data yang dibutuhkan dan alasannya
+Tiap sub-poin ditulis dengan pola masalah di data → tindakan → alasan:
+
+Pengecekan duplikat dan inkonsistensi
+Pembagian data (rasio, stratified, alasan split lebih dulu)
+Penanganan missing value
+Penanganan outlier
+Transformasi kategorikal ke numerik (ordinal dan nominal)
+Normalisasi/standarisasi
+Seleksi fitur
+Penanganan data tidak seimbang (kalau relevan dengan targetmu)
+Alasan khusus untuk Gaussian Naïve Bayes (asumsi distribusi normal, kenapa transformasi tertentu dipilih)
+
+6. Hasil pemrosesan
+
+Tampilan 5 baris teratas dan 5 baris terbawah data hasil pemrosesan (screenshot atau tabel).
+Ringkasan sebelum dan sesudah (jumlah missing, jumlah kolom, bentuk data).
+
+7. Hasil model dan evaluasi
+
+Hasil Gaussian NB (accuracy, precision, recall, F1, confusion matrix) dan interpretasi singkat.
+
+8. Lampiran
+
+Kodingan lengkap dan hasil running.
